@@ -21,6 +21,9 @@
     .navigation li{
         display: none;
     }
+    .navigation li:hover{
+        border: 1px solid white;
+    }
     .navigation a{
         display: block;
     }
