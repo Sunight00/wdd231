@@ -1,8 +1,8 @@
 @media screen and (max-width: 640px){
     #menu{
         display: block;
-    color:blueviolet;
-    background-color: #eee;
+        color:blueviolet;
+        background-color: #eee;
     }
 
     #menu::before
