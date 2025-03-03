@@ -1,3 +1,15 @@
+:root{
+    --headingfont--:"Roboto", serif;
+    --normalfont--:"Raleway", serif;
+}
+
+#heading{
+    font-family: var(--headingfont--);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
 .navigation{
     list-style: none;
 }
