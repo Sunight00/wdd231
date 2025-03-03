@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+    #menu{
+        display: block;
+    color:blueviolet;
+    background-color: #eee;
+    }
+
+    #menu::before
+    {
+        content: "☰";
+    }
+
+
+    .navigation{
+        list-style: none;
+    }
+    .navigation li{
+        display: none;
+    }
+    .navigation a{
+        display: block;
+    }
+
+
+    #menu.show::before{
+        content: "X";
+    }
+}

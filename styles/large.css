@@ -1,3 +1,7 @@
+nav{
+    background-color: blanchedalmond;
+}
+
 ul{
     display: flex;
     justify-content: space-around;
