@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 640px){
     #menu{
         display: block;
     color:blueviolet;
@@ -13,6 +13,7 @@
 
     .navigation{
         list-style: none;
+        display: block  ;
     }
     .navigation li{
         display: none;
@@ -21,8 +22,13 @@
         display: block;
     }
 
+    
+    .show li{
+        display: block;
+    }
 
     #menu.show::before{
         content: "X";
     }
+
 }
