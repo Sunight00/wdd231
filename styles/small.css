@@ -1,7 +1,11 @@
 @media screen and (max-width: 640px){
+
+    header{
+        display: inline-block;
+    }
     #menu{
-        display: block;
-        color:blueviolet;
+        
+        color:black;
         background-color: #eee;
     }
 
