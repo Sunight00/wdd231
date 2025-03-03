@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+}
 :root{
     --headingfont--:"Roboto", serif;
     --normalfont--:"Raleway", serif;
 }
 
+header{
+    text-align: center;
+}
 #heading{
     font-family: var(--headingfont--);
     font-size: xx-large;
@@ -12,4 +18,9 @@
 
 .navigation{
     list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--headingfont--);
 }
