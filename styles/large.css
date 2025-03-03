@@ -2,9 +2,6 @@ nav{
     background-color: blanchedalmond;
 }
 
-.navigation{
-    list-style: none;
-}
 
 ul{
     display: flex;
