@@ -43,6 +43,9 @@ a{
     margin: 1rem;
 }
 
+section{
+    margin-top: 1rem;
+}
 section h2{
     text-align: center;
     color: white;
