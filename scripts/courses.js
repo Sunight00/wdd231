@@ -85,8 +85,8 @@ w.addEventListener("click",wwwd)
 //wwwd()
 function wwwd()
 {
-    const ddd = courses.filter((courses)=>courses.subject=="WDD")
-    ddd.forEach(temple =>{
+    const filterdcourses = courses.filter((courses)=>courses.subject=="WDD")
+    filterdcourses.forEach(course =>{
         let subject = document.createElement("p")
         let number = document.createElement("p")
         let title = document.createElement("p")
@@ -96,11 +96,11 @@ function wwwd()
         let technology = document.createElement("p")
         let completed = document.createElement("p")
         let display = document.createElement("p");
-        display.innerHTML=temple.subject + ""+temple.number;
+        display.innerHTML=course.subject + " "+course.number;
 
         
-        subject.innerHTML=temple.subject;
-        number.innerHTML=temple.number
+        subject.innerHTML=course.subject;
+        number.innerHTML=course.number
         //document.querySelector(".cc").appendChild(subject);
         document.querySelector(".cc").appendChild(display)
 
