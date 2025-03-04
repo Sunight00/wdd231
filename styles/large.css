@@ -17,27 +17,27 @@ ul li{
 .content{
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    column-gap:2rem;  
 }
 
 .home{
-    grid-column: 1/6;
-   
-    
+    grid-column: 1/13; 
 }
 
 .course{
-    grid-column: 1/8;
+    grid-column: 1/9;
     border: 1px black;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
 
 }
 .course ul{
     display: block;
-    
 }
 
 .location{
     grid-column: 9/13;
     border: 1px black;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
 }

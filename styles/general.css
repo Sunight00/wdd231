@@ -31,4 +31,15 @@ a{
     font-weight: bold;
 }
 
+.content{
+    margin: 1rem;
+}
 
+section h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding:1rem ;
+}
