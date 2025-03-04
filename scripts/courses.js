@@ -82,7 +82,7 @@ const courses = [
 
 const re = courses.filter((courses)=>courses.subject=="WDD")
 
-
+console.log(description)
     
 
 

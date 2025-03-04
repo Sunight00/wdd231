@@ -11,3 +11,21 @@ ul{
 ul li{
     padding: 1em;
 }
+
+
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.home{
+    grid-column: 1/6;
+}
+
+.course{
+    grid-column: 1/4;
+}
+.course ul{
+    display: block;
+}
