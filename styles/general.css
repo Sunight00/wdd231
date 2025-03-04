@@ -48,6 +48,7 @@ section{
     margin-top: 1rem;
 }
 section h2{
+    font-family: var(--headingfont--);
     text-align: center;
     color: white;
     background-color: black;
@@ -56,5 +57,30 @@ section h2{
     padding:1rem ;
 }
 
+.locationimg{
+    object-fit: cover;
+    width: 100%;
+}
 
+.cert{
+    text-align: center;
+}
+.cert ul{
+    display: flex;
+    text-align: center;
+}
+.cert ul li{
+    list-style: none;
+    
+}
 
+.cert ul li a{
+    color:white;
+    font-family: var(--headingfont--);
+    background-color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
