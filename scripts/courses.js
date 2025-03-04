@@ -77,3 +77,13 @@ const courses = [
         completed: false
     }
 ]
+
+
+
+const re = courses.filter((courses)=>courses.subject=="WDD")
+
+
+    
+
+
+
