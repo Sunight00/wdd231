@@ -79,11 +79,11 @@ const courses = [
 ]
 
 
-let w= document.querySelector(".w");
-w.addEventListener("click",wwwd)
+let wdd= document.querySelector(".wdd");
+wdd.addEventListener("click",WDD)
 
 //wwwd()
-function wwwd()
+function WDD()
 {
     const filterdcourses = courses.filter((courses)=>courses.subject=="WDD")
     filterdcourses.forEach(course =>{
