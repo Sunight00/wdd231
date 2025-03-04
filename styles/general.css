@@ -5,6 +5,14 @@
     --headingfont--:"Roboto", serif;
     --normalfont--:"Raleway", serif;
 }
+nav{
+    background-color: black;
+}
+
+ul li{
+    padding: 1em;
+}
+
 
 header{
     text-align: center;
@@ -43,3 +51,4 @@ section h2{
     border-top-left-radius: 8px;
     padding:1rem ;
 }
+

@@ -1,4 +1,7 @@
-@media screen and (max-width: 640px){
+@media screen and (max-width: 700px){
+    .course{
+        grid-column: unset;
+    }
 
     header{
         display: inline-block;
@@ -37,4 +40,52 @@
         content: "X";
     }
 
+    .content{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(4,1fr);
+        column-gap:2rem;  
+    }
+    
+    .home{
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    
+    .course{
+        grid-column: 1/13;
+        grid-row: 2/3;
+        border: 1px black;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+    }
+    
+    .course ul{
+        display: block;
+    }
+    
+    .location{
+        
+        grid-column: 1/13;
+        grid-row: 3/4;
+        border: 1px black;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+    }
+
+
+
+    nav{
+        background-color: black;
+    }
+    
+    
+
+    
+    
+    
+
+
+
+    
 }

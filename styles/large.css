@@ -1,16 +1,9 @@
-nav{
-    background-color: black;
-}
+@media screen and (min-width: 700px){
+   nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
 
-
-ul{
-    display: flex;
-    justify-content: space-around;
-}
-
-ul li{
-    padding: 1em;
-}
 
 
 
@@ -29,8 +22,8 @@ ul li{
     border: 1px black;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
-
 }
+
 .course ul{
     display: block;
 }
@@ -40,4 +33,6 @@ ul li{
     border: 1px black;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
+}
+
 }
