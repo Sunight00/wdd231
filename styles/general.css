@@ -68,6 +68,7 @@ section h2{
 .cert ul{
     display: flex;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 .cert ul li{
     list-style: none;

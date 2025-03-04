@@ -79,10 +79,41 @@ const courses = [
 ]
 
 
+let w= document.querySelector(".w");
+w.addEventListener("click",wwwd)
 
-const re = courses.filter((courses)=>courses.subject=="WDD")
+//wwwd()
+function wwwd()
+{
+    const ddd = courses.filter((courses)=>courses.subject=="WDD")
+    ddd.forEach(temple =>{
+        let subject = document.createElement("p")
+        let number = document.createElement("p")
+        let title = document.createElement("p")
+        let credits = document.createElement("p")
+        let certificate = document.createElement("p")
+        let description = document.createElement("p")
+        let technology = document.createElement("p")
+        let completed = document.createElement("p")
+        let display = document.createElement("p");
+        display.innerHTML=temple.subject + ""+temple.number;
 
-console.log(description)
+        
+        subject.innerHTML=temple.subject;
+        number.innerHTML=temple.number
+        //document.querySelector(".cc").appendChild(subject);
+        document.querySelector(".cc").appendChild(display)
+
+
+      
+      })
+
+    
+}
+
+
+
+
     
 
 
