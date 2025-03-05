@@ -78,7 +78,7 @@ const courses = [
     }
 ]
 
-
+let card = document.createElement("section");
 
 
 let cse= document.querySelector(".cse");
@@ -103,7 +103,8 @@ function CSE(filterdcourses)
         subject.innerHTML=course.subject;
         number.innerHTML=course.number
         //document.querySelector(".cc").appendChild(subject);
-        document.querySelector(".cc").appendChild(display)
+        card.appendChild(display)
+        document.querySelector(".cc").appendChild(card)
       
       })
 
@@ -162,7 +163,9 @@ function WDD(filterdcourses)
         //subject.innerHTML=course.subject;
         //number.innerHTML=course.number
         //document.querySelector(".cc").appendChild(subject);
-        document.querySelector(".cc").appendChild(display)
+        card.appendChild(display)
+        document.querySelector(".cc").appendChild(card)
+        
     
       })
 
