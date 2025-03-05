@@ -108,6 +108,12 @@ function createCourses(filterdcourses)
             display.style.backgroundColor = "gray";
             display.style.color="white"
         }
+
+        if (course.completed == false)
+            {
+                display.style.backgroundColor = "lightgrey";
+                display.style.color=""
+            }
         display.innerHTML=course.subject + " "+course.number;
 
         
