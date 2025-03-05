@@ -78,75 +78,16 @@ const courses = [
     }
 ]
 
-let card = document.createElement("section");
+
 
 
 let cse= document.querySelector(".cse");
-cse.addEventListener("click", ()=>{CSE(courses.filter((courses)=>courses.subject=="CSE"));})
+cse.addEventListener("click", ()=>{createCourses(courses.filter((courses)=>courses.subject=="CSE"));})
 
-function CSE(filterdcourses)
+function createCourses(filterdcourses)
 {
+    document.querySelector(".cc").innerHTML="";
     //const filterdcourses = courses.filter((courses)=>courses.subject=="CSE")
-    filterdcourses.forEach(course =>{
-        let subject = document.createElement("p")
-        let number = document.createElement("p")
-        let title = document.createElement("p")
-        let credits = document.createElement("p")
-        let certificate = document.createElement("p")
-        let description = document.createElement("p")
-        let technology = document.createElement("p")
-        let completed = document.createElement("p")
-        let display = document.createElement("p");
-        display.innerHTML=course.subject + " "+course.number;
-
-        
-        subject.innerHTML=course.subject;
-        number.innerHTML=course.number
-        //document.querySelector(".cc").appendChild(subject);
-        card.appendChild(display)
-        document.querySelector(".cc").appendChild(card)
-      
-      })
-
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let wdd= document.querySelector(".wdd");
-wdd.addEventListener("click", ()=>{WDD(courses.filter((courses)=>courses.subject=="WDD"));})
-
-
-//wwwd()
-function WDD(filterdcourses)
-{
-    //const filterdcourses = courses.filter((courses)=>courses.subject=="WDD")
     filterdcourses.forEach(course =>{
         let subject = document.createElement("p")
         let number = document.createElement("p")
@@ -163,8 +104,48 @@ function WDD(filterdcourses)
         //subject.innerHTML=course.subject;
         //number.innerHTML=course.number
         //document.querySelector(".cc").appendChild(subject);
+        
+        document.querySelector(".cc").appendChild(display)
+      
+      })
+
+    
+}
+
+
+
+
+
+
+let wdd= document.querySelector(".wdd");
+wdd.addEventListener("click", ()=>{createCourses(courses.filter((courses)=>courses.subject=="WDD"));})
+
+
+/*wwwd()
+function WDD(filterdcourses)
+{
+    //const filterdcourses = courses.filter((courses)=>courses.subject=="WDD")
+
+    
+    filterdcourses.forEach(course =>{
+       
+        let subject = document.createElement("p")
+        let number = document.createElement("p")
+        let title = document.createElement("p")
+        let credits = document.createElement("p")
+        let certificate = document.createElement("p")
+        let description = document.createElement("p")
+        let technology = document.createElement("p")
+        let completed = document.createElement("p")
+        let display = document.createElement("p");
+        display.innerHTML=course.subject + " "+course.number;
+
+        
+        //subject.innerHTML=course.subject;
+        //number.innerHTML=course.number
+        //document.querySelector(".cc").appendChild(subject);
         card.appendChild(display)
-        document.querySelector(".cc").appendChild(card)
+        document.querySelector(".cc").appendChild(card);
         
     
       })
@@ -172,7 +153,7 @@ function WDD(filterdcourses)
 }
 
 
-
+*/
 
     
 
