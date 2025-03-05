@@ -79,6 +79,10 @@ const courses = [
 ]
 
 
+createCourses(courses)
+
+let all= document.querySelector(".all");
+all.addEventListener("click", ()=>{createCourses(courses)})
 
 
 let cse= document.querySelector(".cse");
