@@ -85,3 +85,10 @@ section h2{
     padding-bottom: 0.5rem;
     text-align: center;
 }
+
+
+
+.Certificate .display{
+    font-family:var(--normalfont--);
+    font-weight: bold;
+}

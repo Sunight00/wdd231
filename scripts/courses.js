@@ -9,7 +9,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -22,7 +22,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -34,7 +34,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -60,7 +60,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -90,7 +90,7 @@ cse.addEventListener("click", ()=>{createCourses(courses.filter((courses)=>cours
 
 function createCourses(filterdcourses)
 {
-    document.querySelector(".cc").innerHTML="";
+    document.querySelector(".Certificate").innerHTML="";
     //const filterdcourses = courses.filter((courses)=>courses.subject=="CSE")
     filterdcourses.forEach(course =>{
         let subject = document.createElement("p")
@@ -102,6 +102,12 @@ function createCourses(filterdcourses)
         let technology = document.createElement("p")
         let completed = document.createElement("p")
         let display = document.createElement("p");
+        display.setAttribute("class","display")
+        if (course.completed == true)
+        {
+            display.style.backgroundColor = "gray";
+            display.style.color="white"
+        }
         display.innerHTML=course.subject + " "+course.number;
 
         
@@ -109,7 +115,7 @@ function createCourses(filterdcourses)
         //number.innerHTML=course.number
         //document.querySelector(".cc").appendChild(subject);
         
-        document.querySelector(".cc").appendChild(display)
+        document.querySelector(".Certificate").appendChild(display)
       
       })
 
