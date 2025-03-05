@@ -91,4 +91,5 @@ section h2{
 .Certificate .display{
     font-family:var(--normalfont--);
     font-weight: bold;
+    border-radius: 4px;
 }
