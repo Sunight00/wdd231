@@ -81,11 +81,11 @@ const courses = [
 
 createCourses(courses)
 
-let all= document.querySelector(".all");
+let all= document.querySelector("#all");
 all.addEventListener("click", ()=>{createCourses(courses)})
 
 
-let cse= document.querySelector(".cse");
+let cse= document.querySelector("#cse");
 cse.addEventListener("click", ()=>{createCourses(courses.filter((courses)=>courses.subject=="CSE"));})
 
 function createCourses(filterdcourses)
@@ -130,10 +130,7 @@ function createCourses(filterdcourses)
 
 
 
-
-
-
-let wdd= document.querySelector(".wdd");
+let wdd= document.querySelector("#wdd");
 wdd.addEventListener("click", ()=>{createCourses(courses.filter((courses)=>courses.subject=="WDD"));})
 
 

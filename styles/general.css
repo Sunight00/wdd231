@@ -93,3 +93,27 @@ section h2{
     font-weight: bold;
     border-radius: 4px;
 }
+
+
+.btn {
+    color:white;
+    font-family: var(--headingfont--);
+    background-color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer p{
+    font-family: var(--normalfont--);
+    margin-top: 1rem;
+}
