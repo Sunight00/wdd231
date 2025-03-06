@@ -105,14 +105,14 @@ function createCourses(filterdcourses)
         display.setAttribute("class","display")
         if (course.completed == true)
         {
-            display.style.backgroundColor = "gray";
+            display.style.backgroundColor = "green";
             display.style.color="white"
         }
 
         if (course.completed == false)
             {
-                display.style.backgroundColor = "lightgrey";
-                display.style.color=""
+                display.style.backgroundColor = "brown";
+                display.style.color="white"
             }
         display.innerHTML=course.subject + " "+course.number;
 
