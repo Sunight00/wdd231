@@ -116,6 +116,10 @@ section h2{
     border-color: wheat;
 }
 
+h4{
+    font-family: var(--headingfont--);
+}
+
 footer {
     text-align: center;
     color: white;
