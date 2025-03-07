@@ -125,7 +125,7 @@ function createCourses(filterdcourses)
 
         sum+=course.credits;
 
-        document.querySelector("#qq").innerHTML=sum;
+        document.querySelector("#sum").innerHTML=sum;
         document.querySelector(".Certificate").appendChild(display)
       
         
