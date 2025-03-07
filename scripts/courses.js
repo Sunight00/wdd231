@@ -91,6 +91,7 @@ cse.addEventListener("click", ()=>{createCourses(courses.filter((courses)=>cours
 function createCourses(filterdcourses)
 {
     document.querySelector(".Certificate").innerHTML="";
+    let sum =0;
     //const filterdcourses = courses.filter((courses)=>courses.subject=="CSE")
     filterdcourses.forEach(course =>{
         let subject = document.createElement("p")
@@ -121,8 +122,14 @@ function createCourses(filterdcourses)
         //number.innerHTML=course.number
         //document.querySelector(".cc").appendChild(subject);
         
+
+        sum+=course.credits;
+
+        document.querySelector("#qq").innerHTML=sum;
         document.querySelector(".Certificate").appendChild(display)
       
+        
+    
       })
 
     
