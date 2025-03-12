@@ -1,0 +1,114 @@
+@media screen and (max-width: 700px){
+    .course{
+        grid-column: unset;
+    }
+
+    header{
+        display: inline-block;
+    }
+    #menu{
+        
+        color:black;
+        background-color: #eee;
+    }
+
+    #menu::before
+    {
+        content: "☰";
+    }
+
+
+    .navigation{
+        display: block  ;
+    }
+    .navigation li{
+        display: none;
+    }
+    .navigation li:hover{
+        border: 1px solid white;
+    }
+    .navigation a{
+        display: block;
+    }
+
+    
+    .show li{
+        display: block;
+    }
+
+    #menu.show::before{
+        content: "X";
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+
+        column-gap:2rem;  
+    }
+    
+    .home{
+        grid-column: 1/13;
+
+    }
+    
+    .course{
+        grid-column: 1/13;
+ 
+        border: 1px black;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+    }
+    
+    .course ul{
+        display: block;
+    }
+    
+    .location{
+        grid-column: 1/13;
+       
+        border: 1px black;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+    }
+
+    .cert{
+        grid-column: 1/13;
+        grid-row: 4/5;
+        border: 1px black;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+    }
+
+
+    nav{
+        background-color: black;
+    }
+    
+    
+
+    
+    .Certificate .display{
+   
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        
+    }
+
+    
+
+
+    .Certificate .display{
+        padding: 1rem 5rem 1rem 5rem;
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+       
+    }
+    
+
+
+
+    
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+:root{
+    --headingfont--:"Roboto", serif;
+    --normalfont--:"Raleway", serif;
+}
+
+nav{
+    background-color: black;
+}
+
+ul li{
+    padding: 1em;
+}
+
+
+header{
+    text-align: center;
+}
+header img{
+    width: 5%;
+    height: 5%;
+}
+#heading{
+    font-family: var(--headingfont--);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.navigation{
+    list-style: none;
+}
+
+.navigation a:hover, .active{
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--headingfont--);
+    font-weight: bold;
+}
+
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer p{
+    font-family: var(--normalfont--);
+    margin-top: 1rem;
+}
