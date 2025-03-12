@@ -1,6 +1,14 @@
 @media screen and (min-width: 700px){
+header{
+    display: inline;
+}
+ nav{
+    display: inline-block;
+ }
 
-
+ ul{
+    display: flex;
+ }
 
 
 
