@@ -17,8 +17,12 @@ const displayProphets = (prophets) =>
             let card = document.createElement("section");
             let fullName = document.createElement("h2");
             let portrait = document.createElement("img");
-            
+            let birth = document.createElement('p');
+            let birthPlace = document.createElement('p'); 
+
             fullName.innerHTML = `${prophet.name} ${prophet.lastname}`;
+            birth.innerHTML = `Date of Birth: ${prophet.birthdate}`;
+            birthPlace.innerHTML = `Place of Birth: ${prophet.birthplace}`
             portrait.setAttribute('src', prophet.imageurl);
             portrait.setAttribute('alt', `${prophet.name} ${prophet.lastname}`);
             portrait.setAttribute('loading', 'lazy');
@@ -26,6 +30,8 @@ const displayProphets = (prophets) =>
             portrait.setAttribute('height', '200');
 
             card.appendChild(fullName);
+            card.appendChild(birth);
+            card.appendChild(birthPlace);
             card.appendChild(portrait);
 
             cards.appendChild(card);
