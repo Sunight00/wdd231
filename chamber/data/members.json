@@ -1,57 +1,57 @@
 {
-    "compay":[{
+    "companies":[{
         "name":"NexaCore Solutions",
-        "address":"",
-        "phone":"",
+        "address":"432 Innovation Drive, Suite 210 Silicon Valley, CA 94043",
+        "phone":"1234567890",
         "website":"",
-        "image":"",
+        "image":"images/com.jpg",
         "membership":"gold"
         },
         {
-        "name":"NexaCore Solutions",
-        "address":"",
-        "phone":"",
+        "name":"UrbanVibe Innovations",
+        "address":"128 Greenfield Avenue, 5th Floor New York, NY 10001",
+        "phone":"2345678901",
         "website":"",
-        "image":"",
+        "image":"images/com 1.jpg",
         "membership":"member"
         },
         {
-        "name":"NexaCore Solutions",
-        "address":"",
-        "phone":"",
-        "website":"",
+        "name":"ZenithWave Technologies",
+        "address":"56 Oceanview Parkway, Unit 120 Miami, FL 33139",
+        "phone":"3456789012",
+        "website":"images/com 2.jpg",
         "image":"",
         "membership":"gold"
         },
         {
-        "name":"NexaCore Solutions",
-        "address":"",
-        "phone":"",
+        "name":"VeroCraft Industriess",
+        "address":"789 Industrial Way, Building B Houston, TX 77001",
+        "phone":"4567890123",
         "website":"",
-        "image":"",
+        "image":"images/com 3.jpg",
         "membership":"silver"
         },
         {
-        "name":"NexaCore Solutions",
-        "address":"",
-        "phone":"",
+        "name":"LuminaPeak Ventures",
+        "address":"214 Quantum Loop, Suite 415 Chicago, IL 60606",
+        "phone":"5678901234",
         "website":"",
-        "image":"",
+        "image":"images/com 4.jpg",
         "membership":"gold"
         },
         {
-        "name":"NexaCore Solutions",
-        "address":"",
-        "phone":"",
+        "name":"StrataVerse Enterprises",
+        "address":"998 Skybridge Boulevard, 2nd Floor       Los Angeles, CA 90017",
+        "phone":"6789012345",
         "website":"",
-        "image":"",
+        "image":"images/com 5.jpg",
         "membership":"member"
         },
         {
-        "name":"NexaCore Solutions",
-        "address":"",
-        "phone":"",
-        "website":"",
+        "name":"AeroMinds Group",
+        "address":"402 Summit Road, Office 305 Denver, CO 80202",
+        "phone":"7890123456",
+        "website":"images/com 6.jpg",
         "image":"",
         "membership":"silver"
         }]
