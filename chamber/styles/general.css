@@ -6,8 +6,10 @@
     --normalfont--:"Raleway", serif;
 }
 
-nav{
-    background-color: black;
+nav a{
+    color: white;
+    font-family: var(--headingfont--);
+    font-weight: bold; 
 }
 
 ul li{
@@ -37,7 +39,7 @@ header img{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: var(--headingfont--);
     font-weight: bold;
 }
