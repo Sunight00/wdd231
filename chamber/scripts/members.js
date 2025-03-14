@@ -21,6 +21,8 @@ async function  getMembers() {
         let logo = document.createElement("img");
 
         logo.setAttribute("src", member.image);
+        logo.setAttribute("alt", member.name);
+        logo.setAttribute("loading", "lazy");
 
         name.innerHTML = member.name;
         address.innerHTML = member.address;
