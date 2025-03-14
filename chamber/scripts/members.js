@@ -17,17 +17,21 @@ async function  getMembers() {
         let name = document.createElement("h2");
         let address = document.createElement("p");
         let phone = document.createElement("p");
-        let website = document.createElement("p");
+        let website = document.createElement("a");
         let logo = document.createElement("img");
 
         logo.setAttribute("src", member.image);
         logo.setAttribute("alt", member.name);
         logo.setAttribute("loading", "lazy");
+        logo.setAttribute("width", "200");
+        logo.setAttribute("height", "200");
+
+       
 
         name.innerHTML = member.name;
         address.innerHTML = member.address;
         phone.innerHTML = member.phone;
-        website.innerHTML = member.website;
+        website.setAttribute("href", member.website);
 
         card.appendChild(logo);
         card.appendChild(name);

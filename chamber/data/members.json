@@ -44,7 +44,7 @@
         "address":"998 Skybridge Boulevard, 2nd Floor       Los Angeles, CA 90017",
         "phone":"6789012345",
         "website":"https://www.strataverse.com/",
-        "image":"images/com 5.jpg",
+        "image":"images/com 5.png",
         "membership":"member"
         },
         {
@@ -52,7 +52,7 @@
         "address":"402 Summit Road, Office 305 Denver, CO 80202",
         "phone":"7890123456",
         "website":"https://www.aeromindsgroup.com/",
-        "image":"images/com 6.jpg",
+        "image":"images/com 6.png",
         "membership":"silver"
         }]
 }
