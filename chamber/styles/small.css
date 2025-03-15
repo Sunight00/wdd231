@@ -4,12 +4,16 @@
     }
 
     header{
-        display: inline-block;
+        text-align: center;
+        background-color: black;
+        color: white;
     }
     #menu{
         
-        color:black;
-        background-color: #eee;
+        color:white;
+        float: right;
+        
+        
     }
 
     #menu::before
@@ -85,8 +89,6 @@
         background-color: black;
     }
     
-    
-
     
     .Certificate .display{
    
