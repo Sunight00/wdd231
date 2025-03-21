@@ -44,19 +44,12 @@ a{
     font-weight: bold;
 }
 
-
-
-
-footer {
-    text-align: center;
-    color: white;
-    background-color: black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-footer p{
-    font-family: var(--normalfont--);
-    margin-top: 1rem;
+main{
+	margin: 0 4rem;
+	
+	
+	background-color: #fff;
+	font-family: var(--normalfont--);
 }
 
 
@@ -64,7 +57,7 @@ footer p{
 
 
 
-main {
+#main {
 	margin: 0 auto;
 	padding: 0.5rem;
 	max-width: 700px;
@@ -161,4 +154,26 @@ section a {
 img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer p{
+    font-family: var(--normalfont--);
+    margin-top: 1rem;
+}
+
+
+#hero{
+	width: 100%;
+	height: auto;
 }

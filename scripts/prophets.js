@@ -22,7 +22,7 @@ const displayProphets = (prophets) =>
 
             fullName.innerHTML = `${prophet.name} ${prophet.lastname}`;
             birth.innerHTML = `Date of Birth: ${prophet.birthdate}`;
-            birthPlace.innerHTML = `Place of Birth: ${prophet.birthplace}`
+            birthPlace.innerHTML = `Place of Birth: ${prophet.birthplace}`;
             portrait.setAttribute('src', prophet.imageurl);
             portrait.setAttribute('alt', `${prophet.name} ${prophet.lastname}`);
             portrait.setAttribute('loading', 'lazy');
@@ -33,6 +33,7 @@ const displayProphets = (prophets) =>
             card.appendChild(birth);
             card.appendChild(birthPlace);
             card.appendChild(portrait);
+
 
             cards.appendChild(card);
 

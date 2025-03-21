@@ -4,7 +4,7 @@ const captionDesc = document.querySelector('figcaption');
 
 const url ="https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=metric&appid=86de64ce4c4c54ce2cce125aca2c4719";
 
-/*async function apiFetch()
+async function apiFetch()
 {
     try 
     {
@@ -15,10 +15,9 @@ const url ="https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&u
             return data;
             
         }
-        /*else{
-            console.error("Error fetching the API:", response.statusText);
-        }*/
-        /*else {
+        //else{ console.error("Error fetching the API:", response.statusText);}
+        
+        else {
             throw new TypeError(await response.text());}
     } 
     catch (error) 
@@ -26,7 +25,7 @@ const url ="https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&u
         console.error(error);
     }
 
-}*/
+}
 
 
 async function apiFetch(){
