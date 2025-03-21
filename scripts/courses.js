@@ -92,7 +92,7 @@ function createCourses(filterdcourses)
 {
     document.querySelector(".Certificate").innerHTML="";
     let sum =0;
-    //const filterdcourses = courses.filter((courses)=>courses.subject=="CSE")
+    const filterdcourses = courses.filter((courses)=>courses.subject=="CSE")
     filterdcourses.forEach(course =>{
         let subject = document.createElement("p")
         let number = document.createElement("p")

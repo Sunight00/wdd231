@@ -4,15 +4,29 @@ async function  getMembers() {
     let response = await fetch(url);
     let data = await response.json();
     
-    displayMembers(data.companies);   
+    //displayMembers(data.companies);   
     
-    displaycard(data.companies);
+    //displaycard(data.companies);
+    gold(data.companies);
 }
+getMembers();
 
- // Promise {<pending>}
 
 
- function displayMembers(members) {
+ function gold(company)
+ {
+    let goldMember = company.filter((company)=>company.membership=="gold")
+    
+    goldMember.forEach(member => {
+        console.log(member.name)
+        
+    });
+};
+
+
+
+/*
+function displayMembers(members) {
     members.forEach(member => {
        
         let card = document.createElement("section");
@@ -28,6 +42,7 @@ async function  getMembers() {
         logo.setAttribute("width", "200");
         logo.setAttribute("height", "200");
 
+        console.log(member.name)
        
 
         name.innerHTML = member.name;
@@ -48,31 +63,4 @@ async function  getMembers() {
  }
 
 
-
-
- 
- getMembers();
-
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
-
-
-
-
+getMembers(); */
