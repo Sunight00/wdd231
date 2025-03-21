@@ -1,0 +1,30 @@
+{
+    "weather":
+
+
+
+        {"coord":{"lon":6.99,"lat":4.85},
+        "weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],
+        "base":"stations",
+        "main":{"temp":304.26,"feels_like":311.05,"temp_min":304.26,"temp_max":304.26,"pressure":1011,"humidity":70,"sea_level":1011,"grnd_level":1009},
+        "visibility":10000,
+        "wind":{"speed":2.57,"deg":180},
+        "clouds":{"all":75},
+        "dt":1742562066,
+        "sys":{"type":1,
+        "id":1170,
+        "country":"NG",
+        "sunrise":1742535344,
+        "sunset":1742578956},
+        "timezone":3600,
+        "id":2591746,
+        "name":"Orogbum",
+        "cod":200}
+    
+
+
+
+
+
+
+}
