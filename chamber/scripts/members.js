@@ -5,6 +5,8 @@ async function  getMembers() {
     let data = await response.json();
     
     displayMembers(data.companies);   
+    
+    displaycard(data.companies);
 }
 
  // Promise {<pending>}
@@ -26,6 +28,7 @@ async function  getMembers() {
         logo.setAttribute("width", "200");
         logo.setAttribute("height", "200");
 
+        console.log(member.name)
        
 
         name.innerHTML = member.name;
@@ -45,6 +48,74 @@ async function  getMembers() {
     });
  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
  getMembers();
 
 
@@ -67,3 +138,9 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+
+
+let g = document.querySelector("#j");
+g.innerHTML="Hello World";
+
