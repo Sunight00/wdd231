@@ -155,7 +155,17 @@ img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
+/*FOR GOLD MEMEBERSHIP*/
+.goldMember{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+}
 
+
+.info{
+	border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
 
 
 

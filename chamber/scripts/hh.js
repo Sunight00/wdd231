@@ -20,32 +20,44 @@ getMembers();
     goldMember.forEach(member => {
         
 
-        console.log(member.name)
+        /*console.log(member.name)
         console.log(member.tag)
         console.log(member.email)
         console.log(member.phone)
-        console.log(member.website)
-        /*
+        console.log(member.website)*/
+        
         let card = document.createElement("section");
+        let info = document.createElement("div");
+        info.setAttribute("class", "info");
         let name = document.createElement("h2");
         let tag = document.createElement("p");
+        let image = document.createElement("img");
+        image.setAttribute("src", member.image);
         let email = document.createElement("p");
         let phone = document.createElement("p");
         let website = document.createElement("a");
 
+
         name.innerHTML = member.name;
         tag.innerHTML = member.tag;
-        email.innerHTML = member.email;
-        phone.innerHTML = member.phone;
+        email.innerHTML = `EMAIL: ${member.email}`;
+        phone.innerHTML = `PHONE; ${member.phone}`;
         website.setAttribute("href", member.website);
+        website.innerHTML = `WEBSITE: ${member.website}`;
 
-        console.log(member.name)
-        console.log(member.tag)
-        console.log(member.email)
-        console.log(member.phone)
-        console.log(member.website)
-        */
+        card.appendChild(name);
+        card.appendChild(tag);
 
+        
+        
+        info.appendChild(email);
+        info.appendChild(phone);
+        info.appendChild(website);
+
+        card.appendChild(info);
+        document.querySelector(".goldMember").appendChild(card);
+        
+       
         
     });
 };
