@@ -5,7 +5,9 @@
         "phone":"1234567890",
         "website":"https://www.nexacoresolutions.com/",
         "image":"images/com.jpg",
-        "membership":"gold"
+        "membership":"gold",
+        "tag":"Innovate & Elevate",
+        "email":"nexacore@gmail.com"
         },
         {
         "name":"UrbanVibe Innovations",
@@ -13,7 +15,9 @@
         "phone":"2345678901",
         "website":"https://www.urbanvibeinnovations.com/",
         "image":"images/com 1.jpg",
-        "membership":"member"
+        "membership":"member",
+        "tag":"Success Starts Here",
+        "email":"urbanvibe@gmail.com"
         },
         {
         "name":"ZenithWave Technologies",
@@ -21,7 +25,9 @@
         "phone":"3456789012",
         "website":"https://www.zenithwavetech.com/",
         "image":"images/com 2.jpg",
-        "membership":"gold"
+        "membership":"gold",
+        "tag":"Your Vision, Our Mission",
+        "email":"zenithwave@gmail.com"
         },
         {
         "name":"VeroCraft Industriess",
@@ -29,7 +35,9 @@
         "phone":"4567890123",
         "website":"https://www.verocraftind.com/",
         "image":"images/com 3.jpg",
-        "membership":"silver"
+        "membership":"silver",
+        "tag":"Driving Growth, Delivering Results",
+        "email":"verocraft@gmail.com"
         },
         {
         "name":"LuminaPeak Ventures",
@@ -37,7 +45,9 @@
         "phone":"5678901234",
         "website":"https://www.luminapeakventures.com/",
         "image":"images/com 4.jpg",
-        "membership":"gold"
+        "membership":"gold",
+        "tag":"Beyond Expectations",
+        "email":"luminapeak@gmail.com"
         },
         {
         "name":"StrataVerse Enterprises",
@@ -45,7 +55,9 @@
         "phone":"6789012345",
         "website":"https://www.strataverse.com/",
         "image":"images/com 5.png",
-        "membership":"member"
+        "membership":"member",
+        "tag":"Smart Solutions for Smart Businesses",
+        "email":"strataverse@gmail.com"
         },
         {
         "name":"AeroMinds Group",
@@ -53,6 +65,8 @@
         "phone":"7890123456",
         "website":"https://www.aeromindsgroup.com/",
         "image":"images/com 6.png",
-        "membership":"silver"
+        "membership":"silver",
+        "tag":"Empowering Your Future",
+        "email":"aerominds@gmail.com"
         }]
 }

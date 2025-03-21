@@ -18,7 +18,34 @@ getMembers();
     let goldMember = company.filter((company)=>company.membership=="gold")
     
     goldMember.forEach(member => {
+        
+
         console.log(member.name)
+        console.log(member.tag)
+        console.log(member.email)
+        console.log(member.phone)
+        console.log(member.website)
+        /*
+        let card = document.createElement("section");
+        let name = document.createElement("h2");
+        let tag = document.createElement("p");
+        let email = document.createElement("p");
+        let phone = document.createElement("p");
+        let website = document.createElement("a");
+
+        name.innerHTML = member.name;
+        tag.innerHTML = member.tag;
+        email.innerHTML = member.email;
+        phone.innerHTML = member.phone;
+        website.setAttribute("href", member.website);
+
+        console.log(member.name)
+        console.log(member.tag)
+        console.log(member.email)
+        console.log(member.phone)
+        console.log(member.website)
+        */
+
         
     });
 };
