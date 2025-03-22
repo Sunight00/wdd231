@@ -165,6 +165,7 @@ img {
 
 .info{
 	border-top: 2px solid rgba(0, 0, 0, 0.1);
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 
