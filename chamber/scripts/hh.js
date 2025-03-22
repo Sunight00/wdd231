@@ -8,6 +8,7 @@ async function  getMembers() {
     
     //displaycard(data.companies);
     gold(data.companies);
+  
 }
 getMembers();
 
@@ -16,14 +17,9 @@ getMembers();
  function gold(company)
  {
     let goldMember = company.filter((company)=>company.membership=="gold")
-    
     goldMember.forEach(member => {
         
-        /*console.log(member.name)
-        console.log(member.tag)
-        console.log(member.email)
-        console.log(member.phone)
-        console.log(member.website)*/
+
         
         let card = document.createElement("section");
         let info = document.createElement("div");
@@ -63,6 +59,7 @@ getMembers();
 
         card.appendChild(info);
         document.querySelector(".goldMember").appendChild(card);
+
         
        
         
@@ -100,9 +97,9 @@ function displayWeather(collection)
 
 //const forecast = "https://api.openweathermap.org/data/2.5/forecast?lat=4.85&lon=6.99&units=metric&mode=json&appid=86de64ce4c4c54ce2cce125aca2c4719"
 
-function getForecast() 
+function getForecast(collection) 
 {   
-    //let today = document.createElement("p");
+    let today = document.createElement("p");
     let sat = document.createElement("p");
     let sun = document.createElement("p");
 
@@ -110,6 +107,7 @@ function getForecast()
     sat.innerHTML = "Saturday: 75° F";
     sun.innerHTML = "Sunday: 80° F";
     
+    document.querySelector("#forecast").appendChild(today);
     document.querySelector("#forecast").appendChild(sat);
     document.querySelector("#forecast").appendChild(sun);
 }
