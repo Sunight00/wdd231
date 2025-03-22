@@ -168,9 +168,15 @@ img {
 	text-align: center;
 }
  .home div{
-	border: solid 1px rgb(85, 84, 84);
+	border: solid 1px rgb(124, 121, 121);
+	padding-bottom: 4em;
  }
 
+ .home p{
+	padding-left: 2em;
+	padding-top: 1em;
+
+ }
 
 /*FOR GOLD MEMEBERSHIP*/
 .goldMember{
