@@ -209,3 +209,10 @@ footer p{
 	width: 100%;
 	height: auto;
 }
+
+#heroContainer{
+	position: relative;
+	margin-left: 3%;
+	margin-right: 3%;	
+}
+
