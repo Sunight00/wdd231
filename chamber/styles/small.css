@@ -106,13 +106,49 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    main {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: (12,1fr);
+    }
+    main h1{
+        grid-column: 1/13;
+    }
     
-
- 
-
-
-   
-
-
+    form{
+        grid-column: 1/10;
+    }
     
+    aside{
+        grid-column: 10/13;
+    }
+
+
+
+
+
+
+
+
+
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: (12,1fr);
+    }
+    main h1{
+        grid-column: 1/13;
+        color: pink;
+    }
+    
+    form{
+        grid-column: 1/13;
+    }
+    
+    aside{
+        grid-column: 1/13;
+    }
 }
+
+
