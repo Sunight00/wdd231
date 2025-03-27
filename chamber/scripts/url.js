@@ -6,5 +6,20 @@ const Lname=searchParams.get("Lname");
 const OTitle=searchParams.get("OTitle");
 const Email=searchParams.get("Email");
 const Tel=searchParams.get("Tel");
-const Oname=searchParams.get("Oname");
+const Bname=searchParams.get("Oname");
 const Description=searchParams.get("Description");
+
+const names = document.querySelector("#name");
+const email = document.querySelector("#email");
+const number = document.querySelector("#num");
+const bname = document.querySelector("#bname");
+const date = document.querySelector("#date");
+
+window.addEventListener("load", (event) => {
+    
+  });
+
+names.innerHTML=`Name: ${Fname} ${Lname}`;
+email.innerHTML=`Email: ${Email}`;
+number.innerHTML=`Telephone: ${Tel}`;
+bname.innerHTML=`Business Name: ${Bname}`;
