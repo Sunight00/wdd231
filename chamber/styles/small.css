@@ -136,18 +136,26 @@
         display: grid;
         grid-template-columns: repeat(12,1fr);
         grid-template-rows: (12,1fr);
+        
     }
     main h1{
         grid-column: 1/13;
-        color: pink;
     }
     
     form{
         grid-column: 1/13;
+        text-align: center;
     }
-    
+    form input{
+        width: 70%;
+        margin-bottom: 1em;
+    }
+    textarea{
+        width: 70%;
+    }
     aside{
         grid-column: 1/13;
+        text-align: center;
     }
 }
 
