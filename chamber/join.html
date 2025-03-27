@@ -48,8 +48,20 @@
     </header>
     <form>
         <label>First Name:<br><input type="text" required name="Fname" title="First Name" autocomplete="on" autofocus></label><br>
-        <label>Last Name:<br><input type="text" required name="Lname" title="Last Name" autocomplete="on" autofocus><br></label><br>
-        <label>Organizational title:<br><input type="text" name="OTitle" title="Organizational title" autocomplete="Manager"></label>
+        <label>Last Name:<br><input type="text" required name="Lname" title="Last Name" autocomplete="on" autofocus></label><br>
+        <label>Organizational title:<br><input type="text" name="OTitle" title="Organizational title" autocomplete="Manager"></label><br>
+        <label>Email:<br><input type="email" required name="email" title="Email" autocomplete="email" placeholder="example@email.com"></label><br>
+        <label>Telephone:<br><input type="tel" required name="tel" title="Phone Number" autocomplete="tel"></label><br>
+        <label>Membership Level<br>
+            <select name="mLevel">
+                <option disabled selected>Select</option>
+                <option value="NP Membership">NP Membership</option>
+                <option value="Bronze Membership">Bronze Membership</option>
+                <option value="Silver Membership">Silver Membership</option>
+                <option value="Gold Membership">Gold Membership</option>
+            </select>
+        </label><br>
+
         <label><input type="submit" value="dddd" autofocus></label>
     </form>
 
