@@ -26,6 +26,7 @@
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/hh.js" defer></script>
+    <script src="scripts/hhs.js" defer></script>
     
     
 </head>
@@ -35,35 +36,58 @@
             <img id="logo" src="images/compressed_logo.jpg" alt="profile" loading="lazy"><span id="heading">Chamber Of Commerce</span>
             <a id="menu" title="menu" href="#"></a>
         </div>
-        
-        
     <nav>
         <ul class="navigation">
-            <li><a href="index.html" title="Home" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="">Join</a></li>
+            <li><a href="join.html"  title="Join" class="active">Join</a></li>
             <li><a href="">Discover</a></li>
         </ul>
     </nav>
     </header>
-    <form>
-        <label>First Name:<br><input type="text" required name="Fname" title="First Name" autocomplete="on" autofocus></label><br>
-        <label>Last Name:<br><input type="text" required name="Lname" title="Last Name" autocomplete="on" autofocus></label><br>
-        <label>Organizational title:<br><input type="text" name="OTitle" title="Organizational title" autocomplete="Manager"></label><br>
-        <label>Email:<br><input type="email" required name="email" title="Email" autocomplete="email" placeholder="example@email.com"></label><br>
-        <label>Telephone:<br><input type="tel" required name="tel" title="Phone Number" autocomplete="tel"></label><br>
-        <label>Membership Level<br>
-            <select name="mLevel">
-                <option disabled selected>Select</option>
-                <option value="NP Membership">NP Membership</option>
-                <option value="Bronze Membership">Bronze Membership</option>
-                <option value="Silver Membership">Silver Membership</option>
-                <option value="Gold Membership">Gold Membership</option>
-            </select>
-        </label><br>
+    <main>
+        <form>
+            <label>First Name:<br><input type="text" required name="Fname" title="First Name" autocomplete="on" autofocus></label><br>
+            <label>Last Name:<br><input type="text" required name="Lname" title="Last Name" autocomplete="on" autofocus></label><br>
+            <label>Organizational title:<br><input type="text" name="OTitle" title="Organizational title" autocomplete="Manager"></label><br>
+            <label>Email:<br><input type="email" required name="email" title="Email" autocomplete="email" placeholder="example@email.com"></label><br>
+            <label>Telephone:<br><input type="tel" required name="tel" title="Phone Number" autocomplete="tel"></label><br>
+            <label>Membership Level<br>
+                <select name="mLevel">
+                    <option disabled selected>Select</option>
+                    <option value="NP Membership">NP Membership</option>
+                    <option value="Bronze Membership">Bronze Membership</option>
+                    <option value="Silver Membership">Silver Membership</option>
+                    <option value="Gold Membership">Gold Membership</option>
+                </select>
+            </label><br>
+            <label>Description<br><textarea  title="Description" name="description"></textarea><br>
+            <label><input type="hidden" name="dateTime" id="dateTime"></label>
+            <label><input type="submit" value="Done" autofocus></label><br>
+        </form>
 
-        <label><input type="submit" value="dddd" autofocus></label>
-    </form>
+        <div id="mem">
+            <h2>Membership Levels</h2>
+            <card>
+                <p>Non Profit Membership Level</p>
+                <a href="#">Learn More</a>
+            </card>
+            <card>
+                <p>Bronze Membership Level</p>
+                <a href="#">Learn More</a>
+            </card>
+            <card>
+                <p>Silver Membership Level</p>
+                <a href="#">Learn More</a>
+            </card>
+            <card>
+                <p>Gold Membership Level</p>
+                <a href="#">Learn More</a>
+            </card>
+        </div>
+
+    
+    </main>
 
 
 
