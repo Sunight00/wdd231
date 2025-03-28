@@ -216,4 +216,11 @@ footer p{
 	margin-right: 3%;	
 }
 
-/*----------JOIN-----------------*/
+
+
+#reginfo{
+	padding-left: 1em;
+}
+#reginfo p{
+	padding-bottom: 0.3em;
+}
