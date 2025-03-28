@@ -109,7 +109,7 @@
     main {
         display: grid;
         grid-template-columns: repeat(12,1fr);
-        grid-template-rows: (12,1fr);
+       
     }
     main h1{
         grid-column: 1/13;
