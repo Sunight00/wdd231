@@ -42,7 +42,7 @@ header{
 
 
 
-button{
+#overlaybutton{
    font-size: var(--normalfont--);
    font-size: large;
    position: absolute;

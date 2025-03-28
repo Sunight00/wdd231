@@ -31,3 +31,6 @@ names.innerHTML=`Name: ${Fname} ${Lname}`;
 email.innerHTML=`Email: ${Email}`;
 number.innerHTML=`Telephone: ${Tel}`;
 bname.innerHTML=`Business Name: ${Bname}`;
+
+
+
