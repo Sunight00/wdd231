@@ -135,6 +135,7 @@
     main {
         display: grid;
         grid-template-columns: repeat(12,1fr);
+        margin-bottom: 2em;
     }
     main h1{
         grid-column: 1/13;
@@ -155,6 +156,17 @@
         grid-column: 1/13;
         text-align: center;
     }
-}
+
+
+    #Membership .card{
+        
+        height: 21%;
+        background-color: #a9b8b856;
+        margin-bottom: 0.5em;
+        border-bottom-right-radius:50px ;
+        border-top-left-radius:50px ;
+     }
+    }
+
 
 

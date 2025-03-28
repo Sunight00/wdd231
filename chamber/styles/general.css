@@ -253,3 +253,21 @@ dialog button {
   padding: .5rem 1rem;
   border: 1px solid rgb(0 0 0 / 0.1);
 }
+
+.card {
+	padding-top: 1em;
+}
+
+#joinmain{
+	margin-bottom: 5em;
+}
+
+form{
+	background-color: #f0e7e731;
+	border: 1px solid rgb(99, 98, 98);
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 3em;
+	border-radius: 5px;
+}
+

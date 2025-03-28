@@ -27,9 +27,8 @@
     
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
 
-    
-    
 </head>
 <body>
     <header>
@@ -46,7 +45,7 @@
         </ul>
     </nav>
     </header>
-    <main>
+    <main id="joinmain">
         <h1>Membership</h1>
         <form method="get" action="thankyou.html">
             <label>First Name:<br><input type="text" required name="Fname" title="First Name" autocomplete="on" autofocus></label><br>
@@ -77,7 +76,7 @@
                 <button id="shownp">Learn More</button>
                 <dialog id="np">
                     <div><button id="closenp">❌</button></div>
-                    <p>sssssssssss</p>
+                    <p>Benefits: Being a nonprofit member gives you access to exclusive resources, networking opportunities, and a chance to contribute to a meaningful cause while enhancing your professional growth.</p>
                 </dialog>
             </div>
 
@@ -86,7 +85,7 @@
                 <button id="showbr">Learn More</button>
                 <dialog id="br">
                     <div><button id="closebr">❌</button></div>
-                    <p>sssssssssss</p>
+                    <p>Benefits: As a Bronze member, you enjoy essential benefits such as exclusive discounts, access to special events, and recognition for your support of the organization’s mission.</p>
                 </dialog>
             </div>
             <div class="card">
@@ -94,7 +93,7 @@
                 <button id="showsi">Learn More</button>
                 <dialog id="si">
                     <div><button id="closesi">❌</button></div>
-                    <p>sssssssssss</p>
+                    <p>Benefits: As a Silver member, you receive enhanced benefits, including greater discounts, priority access to events, and additional networking opportunities to support your engagement with the organization.</p>
                 </dialog>
             </div>
             <div class="card">
@@ -102,7 +101,7 @@
                     <button id="showgo">Learn More</button>
                 <dialog id="go">
                     <div><button id="closego">❌</button></div>
-                    <p>sssssssssss</p>
+                    <p>Benefits: As a Gold member, you enjoy premium benefits, including VIP event access, exclusive discounts, special recognition, and enhanced networking opportunities to maximize your involvement.</p>
                 </dialog>
             </div>
         </aside>
