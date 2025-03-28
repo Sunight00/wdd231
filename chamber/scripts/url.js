@@ -9,6 +9,7 @@ const Tel=searchParams.get("Tel");
 const Bname=searchParams.get("Oname");
 const Membership=searchParams.get("mLevel");
 const Description=searchParams.get("Description");
+const timestamp =searchParams.get("timestamp")
 
 
 const member = document.querySelector("#mem");
@@ -16,7 +17,7 @@ const names = document.querySelector("#name");
 const email = document.querySelector("#email");
 const number = document.querySelector("#num");
 const bname = document.querySelector("#bname");
-const date = document.querySelector("#date");
+const date = document.querySelector("#timestamp");
 
 window.addEventListener("load", (event) => {
     const now = new Date();
