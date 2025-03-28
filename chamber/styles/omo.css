@@ -2,7 +2,6 @@
     main {
         display: grid;
         grid-template-columns: repeat(12,1fr);
-        grid-template-rows: (12,1fr);
     }
     main h1{
         grid-column: 1/13;
@@ -30,8 +29,7 @@
     #Membership div{
         
         height: 21%;
-        background-color: rgba(169, 184, 184, 0.336);
-        padding: auto;
+        background-color: #a9b8b856;
         margin-bottom: 0.5em;
         border-bottom-right-radius:50px ;
         border-top-left-radius:50px ;
