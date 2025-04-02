@@ -1,8 +1,15 @@
-const url = "https://github.com/Sunight00/wdd231/blob/main/chamber/data/discover.json"
+const url = "https://sunight00.github.io/wdd231/chamber/data/discover.json"
 
-async function name() {
-    const data = await fetch(url)
+const ur = "https://sunight00.github.io/wdd231/chamber/data/members.json"
+
+async function  images() {
+    let response = await fetch(url);
+    let data = await response.json();
+    
+    //displayMembers(data.companies);   
+    
+    //displaycard(data.companies);
     console.log(data.images)
+  
 }
-
-name()
+images();
