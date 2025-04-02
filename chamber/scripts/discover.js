@@ -9,7 +9,21 @@ async function  images() {
     //displayMembers(data.companies);   
     
     //displaycard(data.companies);
-    console.log(data.images)
+    discover(data.sites)
   
 }
 images();
+function discover(sites){
+    sites.forEach(info => {
+        let card= document.createElement("section")
+        let title = document.createElement("h2");
+        /*let img = document.createElement("a");
+        let description = document.createElement("p");
+        let button = document.createElement("button");*/
+
+        title.innerHTML = info.title;
+        card.appendChild(title);
+
+        document.querySelector("#discoverymain").appendChild(card);
+    });
+}
