@@ -1,0 +1,86 @@
+@media only screen and (min-width: 38rem){
+    body{
+        background-color: beige;
+    }
+    .course{
+        grid-column: unset;
+    }
+
+    header{
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    #menu{
+        
+        color:white;
+        float: right;
+        
+    }
+
+    #menu::before
+    {
+        content: "☰";
+    }
+
+
+    .navigation{
+        display: block  ;
+    }
+    .navigation li{
+        display: none;
+    }
+    .navigation li:hover{
+        border: 1px solid white;
+    }
+    .navigation a{
+        display: block;
+    }
+
+    
+    .show li{
+        display: block;
+    }
+
+    #menu.show::before{
+        content: "X";
+    }
+
+
+
+
+
+    #discoverymain section{
+        margin: 1rem 8px;
+ 
+ 
+        display: grid;
+        grid-template-areas:  " img name " "img description" " img address";
+     }
+ 
+ 
+     #discoverymain section img{
+         width: 100%;
+         grid-area: img;
+     }
+ 
+     #discoverymain section h2{
+         grid-area: name;
+         font-size: 1.5rem;
+         margin: 0.5rem 0;
+     }
+ 
+     #discoverymain section .description{
+         grid-area: description;
+         font-size: 1rem;
+         margin: 0.5rem 0;
+     }
+ 
+     #discoverymain section .address{
+         grid-area: address;
+         font-size: 1rem;
+         margin: 0.5rem 0;
+     } 
+ 
+
+}
