@@ -29,7 +29,7 @@ function discover(goo){
         title.innerHTML = info.title;
         img.setAttribute("src", info.image);
         img.setAttribute("alt", info.title);
-        img.setAttribute("loading", "lazy");
+        
         
         description.innerHTML = info.description;
         address.innerHTML = info.address;
