@@ -1,7 +1,4 @@
-@media only screen and (min-width: 38rem){
-    body{
-        background-color: beige;
-    }
+@media only screen and (min-width: 38rem) and (max-width: 64rem) {
     .course{
         grid-column: unset;
     }
