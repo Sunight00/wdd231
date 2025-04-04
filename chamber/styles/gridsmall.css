@@ -54,6 +54,7 @@
 
     #discoverymain section img{
         width: 100%;
+        height: auto;
         grid-area: img;
     }
 
