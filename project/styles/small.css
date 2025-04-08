@@ -99,3 +99,12 @@ h2{
 p{
     font-family: var(--bodyfont--);
 }
+
+
+.services li{
+    font-family: var(--bodyfont--);
+}
+
+.info h2{
+    text-align: center;
+}
