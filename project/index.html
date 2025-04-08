@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <link rel="stylesheet" href="styles/large.css">
+    
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+
+
+    <script src="script/navigation.js" defer></script>
     
 </head>
 <body>
-    <head>
-
-        <img src="#...." alt="LOGO"> <h1 id="logo">Morgy Special</h1>
-
+    <header>
+        <a class="brand" href="#"><img src="#...." alt="LOGO"> <h1 id="logo">Morgy Special</h1></a><a id="menu" href="#"></a>
         <nav>
             <ul class="navigation">
-                <li><a href="index.html" class="active" title="Home">HOME</a></li>
-                <li><a href="recipe.html">EXPLORE</a></li>
-                <li><a href="order.html">ORDER</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">RECIPE</a></li>
+            <li><a href="#">ORDER</a></li>
             </ul>
-        </nav>
-    </head>
+        </nav>  
+    </header>
+    
+ 
 
     
     <div class="hero">
         <picture>
             <source media="(min-width: 1024px)" srcset="images/herolarge.webp">
-            <source media="(min-width: 400px)" srcset="images/hero-medium.jpg">
-            <img src="images/hero-small.jpg" alt="Lady in Kitchen" class="hero-image">
+            <source media="(max-width: 608px)" srcset="images/smallhero.webp">
+            <img src="images/smallhero.webp" alt="Lady in Kitchen" class="hero-image" loading="lazy">
         </picture>
     </div>
     

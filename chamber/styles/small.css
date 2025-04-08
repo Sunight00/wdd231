@@ -8,14 +8,13 @@
         background-color: black;
         color: white;
     }
+
+    
     #menu{
-        
         color:white;
         float: right;
-        
-        
     }
-
+    
     #menu::before
     {
         content: "☰";
@@ -43,6 +42,8 @@
     #menu.show::before{
         content: "X";
     }
+
+
 
     .content{
         display: grid;

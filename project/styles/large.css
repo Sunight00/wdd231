@@ -1,20 +1,38 @@
 @media only screen and (min-width:64rem){
 
-    .navigation{
-        display: flex;
-        justify-content: space-around;
+
+    /*...NAVIGATION...*/
+
+    header{
+        display: grid;
+        grid-template-areas: "brand nav" ;
+    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+
+    .brand {
+        display: inline-block;
+        grid-area: brand;
+    }
+
+    nav{
+        grid-area: nav;
         
     }
 
-
-
-
-
-        .hero img{
-            width: 100%;
-            height: auto;
-        }
-
+ 
+    /*....END.....*/
 
 
 
