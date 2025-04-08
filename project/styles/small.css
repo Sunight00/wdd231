@@ -4,3 +4,12 @@
 #logo {
     display: inline-block;
 }
+
+
+
+.navigation{
+    list-style: none;
+}
+.navigation a{
+    text-decoration: none;
+}
