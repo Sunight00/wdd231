@@ -92,7 +92,7 @@ header{
     height: auto;
 }
 
-h2{
+h2, h3{
     font-family: var(--headingfont--);
 }
 
@@ -101,10 +101,89 @@ p{
 }
 
 
-.services li{
-    font-family: var(--bodyfont--);
-}
+
 
 .info h2{
     text-align: center;
+}
+.info li{
+    font-family: var(--bodyfont--);
+}
+
+
+/*.........Culture styling......*/
+.culture{
+    text-align: center;
+    margin-top: 2rem;
+}
+.culture p{
+    margin-top: 1rem;
+}
+.culture form{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.culture input{
+    padding: 0.7rem;
+}
+#joinemail{
+    border: 1px solid black;
+    border-left: none;
+    padding: 4px;
+    border-right: none;
+}
+#joinsub{
+    border: 1px solid black;
+    border-right: none;
+    padding: 4px;
+}
+#joinsub input{
+    background-color: #000;
+    color: white;
+    border-radius: 4px; 
+}
+#joinsub input:hover{
+    background: white;
+    color:black;
+    animation: mymove 3s infinite;
+    cursor: pointer;
+}
+@keyframes mymove {
+    from {background-color: black;}
+    to {background-color:white;}
+    from{color:white;}
+    to{color:black;}
+  }
+/*********END**************/
+footer{
+    margin-top: 2rem;
+    padding-top:3rem;
+    background-color:#ADD8E6;
+    padding-bottom: 4rem;
+} 
+.socialicon{
+    text-align: center;
+}
+.socialicon img{
+    width: 5%;
+}
+.footlink{
+    text-align: center;
+    margin-top: 1rem;
+}
+.footlink a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--bodyfont--);
+    font-weight: 600;
+    padding: 0 1rem 0 1rem;
+}
+#blog, #catering{
+    border-left: 2px solid black;
+}
+#catering{
+    border-right: 2px solid black;
 }

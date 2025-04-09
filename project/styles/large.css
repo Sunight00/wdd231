@@ -51,8 +51,43 @@
 
     .services{
         grid-row: 4/6;
-        grid-column: 7/12;
+        grid-column: 8/13;
+    }
+
+    .special{
+        grid-column: 4/10;
+        grid-row: 6/7;
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.........Culture styling......*/
+    #joinemail input{
+        min-inline-size: 400px;
+    }
+
+/*********END***************/
+
+
+
+    .socialicon img{
+        width: 2%;
+    }
 }
+
+
+
