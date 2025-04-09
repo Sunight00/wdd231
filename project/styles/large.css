@@ -48,7 +48,32 @@
        grid-column: 1/6;
        grid-row: 1/3;
     }
+    .vl{
+        grid-column: 10/13;
+        grid-row: 1/4;
+        border-left: 3px solid rgb(0, 0, 0);
+        text-align: center;
+    }
 
+    .hl{
+        grid-column: 10/13;
+        grid-row: 1/3;
+        border-top: 3px solid rgb(0, 0, 0);
+        text-align: center;
+    }
+    .sl{
+        grid-column: 1/10;
+        grid-row: 4/6;
+        border-top: 3px solid rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .wl{
+        grid-column: 7/8;
+        grid-row: 4/6;
+        border-left: 3px solid rgb(0, 0, 0);
+        text-align: center;
+    }
     .services{
         grid-row: 4/6;
         grid-column: 8/13;

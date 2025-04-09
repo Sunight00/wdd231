@@ -114,7 +114,14 @@ p{
 .info li{
     font-family: var(--bodyfont--);
 }
+/*.......SECTION......*/
+.info{
+    margin-top: 2rem;
+    padding: 0 2rem 0 2rem;
+}
 
+
+/*..........END.........*/
 
 /*.........Culture styling......*/
 .culture{
