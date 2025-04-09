@@ -19,15 +19,19 @@ header{
     margin-bottom: 1px;
     text-align: center;
     font-family: var(--headingfont--);
-    
 }
 
+header img{width: 4%;
+    height: auto;}
 #logo{
     display: inline-block;
 }
 
 .navigation{
     list-style-type: none;
+}
+.active{
+    border-bottom: 2px solid black;
 }
 
 #menu {
@@ -69,6 +73,7 @@ header{
 .navigation a:active {
 	color: white;
 	background-color: black;
+    border-color: white;
 }
 
 .show li {
@@ -160,10 +165,12 @@ p{
 /*********END**************/
 footer{
     margin-top: 2rem;
-    padding-top:3rem;
-    background-color:#ADD8E6;
-    padding-bottom: 4rem;
 } 
+.semifooter{
+    background-color:#ADD8E6;
+    padding-top:3rem;
+    padding-bottom: 2rem;
+}
 .socialicon{
     text-align: center;
 }
@@ -186,4 +193,14 @@ footer{
 }
 #catering{
     border-right: 2px solid black;
+}
+
+
+.quote{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
