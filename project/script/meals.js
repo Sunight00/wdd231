@@ -91,7 +91,7 @@ function createForeign(dish)
     modal.setAttribute('id',dishes.id); 
 
     let button = document.createElement('button');
-    button.setAttribute('id', `show${n}`);
+    button.setAttribute('id', dishes.button);
     button.innerHTML = "DETAILS";
     
     name.innerHTML = dishes.name;
