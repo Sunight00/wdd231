@@ -5,28 +5,37 @@
         "origin": "Japan",
         "recipe": "Cook sushi rice and season with rice vinegar, sugar, and salt. Place rice on nori (seaweed), add raw fish like salmon or tuna, vegetables like cucumber or avocado, then roll and slice.",
         "health_benefits": "Rich in omega-3 fatty acids from fish, low in saturated fats, provides iodine and antioxidants from seaweed.",
-        "image":"images/images/sSushi.webp"
+        "image":"images/images/sSushi.webp",
+        "id":"dish1",
+        "button":"open1"
       },
       {
         "name": "Tacos",
         "origin": "Mexico",
         "recipe": "Prepare corn tortillas. Cook seasoned meat (beef, chicken, or pork). Fill tortillas with meat, chopped onions, cilantro, salsa, and lime juice.",
         "health_benefits": "Good source of protein, fiber from vegetables and tortillas, and vitamins like B12 and C from toppings.",
-        "image":"images/images/sTacos.webp"
+        "image":"images/images/sTacos.webp",
+        "id":"dish2",
+        "button":"open2"
       },
       {
         "name": "Ratatouille",
         "origin": "France",
         "recipe": "Slice eggplant, zucchini, bell peppers, and tomatoes. Sauté onions and garlic in olive oil, then layer all vegetables in a baking dish and bake until tender.",
         "health_benefits": "High in fiber, low in calories, rich in antioxidants, and promotes heart health due to olive oil and vegetables.",
-        "image":"images/images/sRatatouille.webp"
+        "image":"images/images/sRatatouille.webp",
+        "id":"dish3",
+        "button":"open3"
       },
       {
         "name": "Bibimbap",
         "origin": "Korea",
         "recipe": "Cook rice and top with sautéed vegetables (spinach, carrots, mushrooms), sliced beef, a fried egg, and gochujang (Korean chili paste). Mix before eating.",
         "health_benefits": "Balanced meal with protein, fiber, and complex carbs. Contains probiotics from fermented ingredients like kimchi (optional).",
-        "image":"images/images/sBibimbap.webp"
+        "image":"images/images/sBibimbap.webp",
+        "id":"dish4",
+        "button":"open4"
+
       }
     ]
   }
