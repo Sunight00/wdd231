@@ -10,9 +10,9 @@
 
         {"image":"images/images/hypercity.webp","title":"Azure Lagoon Water Park","address":"Rivers coast, Port Harcourt","description":"A massive water park with giant wave pools, high-speed water slides, and a lazy river set against a luxurious resort backdrop."},
 
-        {"image":"images/images/pleasure.webp","title":"Ancient Wonders Heritage Park","address":"Adanda, Port Harcourt", "description":"A historical attraction featuring life-sized replicas of ancient world wonders, interactive exhibits, and guided history tours.","load":"lazy"},
+        {"image":"images/images/pleasure.webp","title":"Ancient Wonders Heritage Park","address":"Adanda, Port Harcourt", "description":"A historical attraction featuring life-sized replicas of ancient world wonders, interactive exhibits, and guided history tours."},
 
         {"image":"images/images/shoprite.webp","title":"Moonlight Safari & Wildlife Reserve ","address":"Borno, Port Harcourt","description":"A unique nighttime safari experience featuring big cat sightings, stargazing, and luxury lodges."},
 
-        {"image":"images/images/OOAKPARK.webp","title":"Crystal Peak Ski Resort","address":"Asaga, Port Harcourt","description":"A winter wonderland with world-class ski slopes, snowboarding trails, and cozy alpine lodges with breathtaking mountain views.","load":"lazy"}]
+        {"image":"images/images/OOAKPARK.webp","title":"Crystal Peak Ski Resort","address":"Asaga, Port Harcourt","description":"A winter wonderland with world-class ski slopes, snowboarding trails, and cozy alpine lodges with breathtaking mountain views."}]
 }
