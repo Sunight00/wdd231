@@ -159,12 +159,25 @@
 @media only screen and (min-width: 38rem) and (max-width: 64rem){
     .foreign section{
         display: grid;
-        grid-template-areas: "img name" "img origin" "img recipe" "health";
+        grid-template-areas: "img name" "img origin" "img recipe" "img health";
+        border-bottom: solid black 1px;
+        margin-bottom: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        border-right: 1px solid black;
+        
+        border-top-right-radius:0.5rem;
+        border-bottom-right-radius:0.5rem;
+        
     }
 
     .foreign section img{
         grid-area: img;
-        width: 100%;
+        width: 250px;
+        height: 250px;
+        border-top:1px solid black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
     } 
 
     .foreign section .name{
@@ -172,17 +185,27 @@
         text-align: center;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
+        border-top-right-radius:0.5rem;
+
+       
     }
 
     .foreign section .origin{
         grid-area: origin;
-       
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     .foreign section .recipe{
         grid-area: recipe;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
-    .foreign section .{}
+    .foreign section .health{
+        grid-area: health;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 
    
 
