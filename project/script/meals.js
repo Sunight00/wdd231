@@ -46,9 +46,13 @@ function createForeign(dish)
     let card = document.createElement('section');
     card.setAttribute('id', dishes.id);
     let name = document.createElement('h2');
+    name.setAttribute("class",dishes.class)
     let origin = document.createElement('p');
+    origin.setAttribute("class",dishes.class1)
     let recipe = document.createElement('p');
+    recipe.setAttribute("class",dishes.class2)  
     let health_benefits = document.createElement('p');
+    health_benefits.setAttribute("class",dishes.class3)
     let image = document.createElement('img');
     
     name.innerHTML = dishes.name;
