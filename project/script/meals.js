@@ -38,13 +38,13 @@ getMeals();
 
 
 
-/*
+
 function createForeign(dish)
 {   
     dish.forEach(dishes => {
-    let n = 1;
+   
     let card = document.createElement('section');
-    card.setAttribute('id', `card${n}`);
+    card.setAttribute('id', dishes.id);
     let name = document.createElement('h2');
     let origin = document.createElement('p');
     let recipe = document.createElement('p');
@@ -74,10 +74,10 @@ function createForeign(dish)
     
     });
 }
-*/
 
 
 
+/*
 function createForeign(dish)
 {   
     dish.forEach(dishes => {
@@ -113,11 +113,16 @@ function createForeign(dish)
   
     card.appendChild(image);
     card.appendChild(button);
-    card.appendChild(modal);
+    let okay = document.createElement('h2');
+    okay.innerHTML=dishes.id;
+    card.appendChild(okay);
+    document.querySelector('.explore').appendChild(modal);
+    
+    
+
 
     
     
     document.querySelector('.foreign').appendChild(card);
     });
-}
-
+}*/

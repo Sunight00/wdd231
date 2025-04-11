@@ -99,4 +99,81 @@
 
 /*.........END...............*/
 
+
+/*.......EXPLORE................*/
+.foreign{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 15px;
+}
+.foreign img{
+    width: 100%;
+}
+.foreign section h2 {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.foreign section p{
+    padding: 0.4rem 0.2rem 0 0.2rem;
+
+}
+#dish1{
+    grid-column: 2/6;
+    grid-row: 1/2;
+    border: 1px solid black;
+}
+
+#dish2{
+    grid-column: 8/12;
+    grid-row: 1/2;
+    border: 1px solid black;
+}
+
+#dish3{
+    grid-column: 2/6;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+
+#dish4{
+    grid-column: 8/12;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 38rem) and (max-width: 64rem){
+    .foreign section{
+        display: grid;
+        grid-template-areas: "img head head" "img origin" "img recipe" "health";
+    }
+
+    .foreign section img{
+        grid-area: img;
+        width: 100%;
+    } 
+
+    .foreign section h2{
+        grid-area: head;
+        text-align: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+   
+
+
 }
