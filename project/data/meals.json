@@ -7,7 +7,11 @@
         "health_benefits": "Rich in omega-3 fatty acids from fish, low in saturated fats, provides iodine and antioxidants from seaweed.",
         "image":"images/images/sSushi.webp",
         "id":"dish1",
-        "button":"open1"
+        "button":"open1",
+        "class":"name",
+        "class1":"origin",
+        "class2":"recipe",
+        "class3":"health_benefits"
       },
       {
         "name": "Tacos",
@@ -16,7 +20,11 @@
         "health_benefits": "Good source of protein, fiber from vegetables and tortillas, and vitamins like B12 and C from toppings.",
         "image":"images/images/sTacos.webp",
         "id":"dish2",
-        "button":"open2"
+        "button":"open2",
+        "class":"name",
+        "class1":"origin",
+        "class2":"recipe",
+        "class3":"health_benefits"
       },
       {
         "name": "Ratatouille",
@@ -25,7 +33,11 @@
         "health_benefits": "High in fiber, low in calories, rich in antioxidants, and promotes heart health due to olive oil and vegetables.",
         "image":"images/images/sRatatouille.webp",
         "id":"dish3",
-        "button":"open3"
+        "button":"open3",
+        "class":"name",
+        "class1":"origin",
+        "class2":"recipe",
+        "class3":"health_benefits"
       },
       {
         "name": "Bibimbap",
@@ -34,7 +46,11 @@
         "health_benefits": "Balanced meal with protein, fiber, and complex carbs. Contains probiotics from fermented ingredients like kimchi (optional).",
         "image":"images/images/sBibimbap.webp",
         "id":"dish4",
-        "button":"open4"
+        "button":"open4",
+        "class":"name",
+        "class1":"origin",
+        "class2":"recipe",
+        "class3":"health_benefits"
 
       }
     ]
