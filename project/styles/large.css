@@ -233,9 +233,28 @@
         grid-row: 6/7;
         border: 1px solid black;
         }
+    
         
+/*.............END...........*/
+
+/*...........ORDER.........*/
+.orders{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+
+
+
+
 
 }
+
+
+
 
 
 
