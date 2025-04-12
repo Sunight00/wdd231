@@ -1,12 +1,12 @@
-const url = "https://sunight00.github.io/wdd231/project/data/africanmeals.json"
+const urls = "https://sunight00.github.io/wdd231/project/data/africanmeals.json"
 
 async function Meals() {
     try{
-        const response = await fetch(url);
+        const response = await fetch(urls);
         if (response.ok) {
             const data = await response.json();
         const meals = data.dishes;
-        createForeign(meals);
+        create(meals);
         }
         else {
             throw new TypeError(await response.text());}
@@ -23,7 +23,7 @@ async function Meals() {
 
 
 
-    function createForeign(dish)
+    function create(dish)
     {   
         dish.forEach(dishes => {
        
@@ -42,7 +42,7 @@ async function Meals() {
         name.innerHTML = dishes.name;
         origin.innerHTML =`ORIGIN: ${dishes.origin}`;
         recipe.innerHTML =`RECIPE: ${dishes.recipe}`;
-        health_benefits.innerHTML =`HEALTH BENEFITS: ${dishes.health_benefits}`;
+        health_benefits.innerHTML =`HEALTH BENEFITS: ${dishes.health_benefit}`;
         image.setAttribute('src', dishes.image);
         image.setAttribute('alt', dishes.name);
         image.setAttribute('width', '350px');
