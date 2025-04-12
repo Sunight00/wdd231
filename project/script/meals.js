@@ -1,12 +1,23 @@
-const url = "https://sunight00.github.io/wdd231/project/data/meals.json"
+const url = "https://sunight00.github.io/wdd231/project/data/foreignmeals.json"
 
 async function getMeals() {
-    const response = await fetch(url);
-    const data = await response.json();
-    const meals = data.dishes;
-    createForeign(meals);
-}
-
+    try{
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+        const meals = data.dishes;
+        createForeign(meals);
+        }
+        else {
+            throw new TypeError(await response.text());}
+    } 
+    catch (error) 
+    {
+        console.error(error);
+    }
+      
+    }
+    
 /*
 n=0;
 let card = document.createElement('section');

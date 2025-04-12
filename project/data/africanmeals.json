@@ -1,0 +1,71 @@
+{
+    "dishes":[[
+        {
+          "name": "Jollof Rice",
+          "origin": "West Africa (Nigeria, Ghana, Senegal)",
+          "recipe": "Cook rice in a rich blend of tomatoes, onions, peppers, and spices. Add meat, fish, or vegetables as desired.",
+          "health_benefit": "Rich in carbohydrates for energy and includes lycopene from tomatoes which supports heart health."
+        },
+        {
+          "name": "Egusi Soup",
+          "origin": "Nigeria",
+          "recipe": "Cook ground melon seeds with palm oil, leafy greens, meats, and spices to make a thick, rich soup.",
+          "health_benefit": "High in protein and essential fats from melon seeds, supporting muscle growth and brain function."
+        },
+        {
+          "name": "Bunny Chow",
+          "origin": "South Africa",
+          "recipe": "Hollow out a loaf of bread and fill it with spicy meat or vegetable curry.",
+          "health_benefit": "Provides carbohydrates and proteins; spices like turmeric and cumin have anti-inflammatory properties."
+        },
+        {
+          "name": "Injera with Doro Wat",
+          "origin": "Ethiopia",
+          "recipe": "Injera is a fermented teff flatbread; Doro Wat is a spicy chicken stew with boiled eggs, slow-cooked with onions and berbere spice.",
+          "health_benefit": "Teff is gluten-free and rich in iron; Doro Wat provides protein and anti-inflammatory benefits from spices."
+        },
+        {
+          "name": "Fufu & Light Soup",
+          "origin": "Ghana",
+          "recipe": "Boil and pound cassava/yam to make fufu; serve with light tomato-based soup containing fish or meat.",
+          "health_benefit": "Fufu is a good source of carbohydrates and fiber; the soup provides hydration and protein."
+        },
+        {
+          "name": "Nyama Choma",
+          "origin": "Kenya",
+          "recipe": "Marinate and grill goat or beef over an open flame. Serve with ugali and fresh tomato-onion salad (kachumbari).",
+          "health_benefit": "High in protein; grilling reduces fat content compared to frying."
+        },
+        {
+          "name": "Biryani",
+          "origin": "East Africa (Kenya/Tanzania, Indian influence)",
+          "recipe": "Cook rice with marinated meat, spices, and sometimes raisins or nuts in layers.",
+          "health_benefit": "Provides balanced nutrition with carbs, proteins, and healthy fats; spices aid digestion."
+        },
+        {
+          "name": "Suya",
+          "origin": "Nigeria",
+          "recipe": "Thinly sliced meat coated in a peanut-spice rub, skewered and grilled.",
+          "health_benefit": "Peanuts provide protein and healthy fats; grilled meat is lower in saturated fat."
+        },
+        {
+          "name": "Matoke",
+          "origin": "Uganda",
+          "recipe": "Cook peeled green bananas in a stew of onions, tomatoes, and spices; serve with meat or legumes.",
+          "health_benefit": "Rich in potassium and fiber; aids digestion and supports blood pressure regulation."
+        },
+        {
+          "name": "Thieboudienne (Ceebu Jën)",
+          "origin": "Senegal",
+          "recipe": "Fish cooked with tomato sauce, vegetables, and rice in one pot.",
+          "health_benefit": "Omega-3s from fish promote heart health; vegetables add fiber and vitamins."
+        },
+        {
+          "name": "Koshari",
+          "origin": "Egypt",
+          "recipe": "Mix lentils, rice, pasta, and chickpeas; top with tomato sauce and fried onions.",
+          "health_benefit": "High in plant-based protein and fiber; supports energy levels and digestion."
+        }
+      ]
+      ]
+}
