@@ -21,6 +21,7 @@
 
     <script src="script/navigation.js" defer></script>
     <script src="script/modal.js" defer></script>
+    <script src="script/localstorage.js" defer></script>
     
 </head>
 <body>
@@ -43,17 +44,17 @@
                 <p>$11</p>
                 <button id="opensushi">Place order</button>
                 <dialog id="modalsushi">
-                    <form method="dialog">
+                    <form method="dialog" action="thank.html">
                         <div class="close">
                             <button id="closesushi" title="close">❌</button>
                         </div>
                         <h3>Order Sushi</h3>
-                        <label>NAME:<br><input type="text" name="name" placeholder="Your Name"></label><br>
+                        <label>NAME:<br><input type="text" name="name" placeholder="Your Name"  id="input"></label><br>
                         <p>Price: $11</p>
                         <label>QTY:<br><input type="number" name="qty" placeholder="0"></label><br>
                         <label>ADDRESS:<br><input type="text" name="address" placeholder="Your Address"></label><br>
                         <label>PHONE:<br><input type="tel" name="phone" placeholder="Your Phone Number"></label><br>
-                        <label><input type="submit"></label>
+                        <label><input type="submit" id="subtac"></label>
                     </form>
                 </dialog>
             </div>
@@ -65,16 +66,16 @@
                 <button id="opentacos">Place order</button>
                 <dialog id="modaltacos">
                     <form method="dialog">
-                        <div class="close">
+                        <div class="close"> 
                             <button id="closetacos" title="close">❌</button>
                         </div>
                         <h3>Order Tacos</h3>
-                        <label>NAME:<br><input type="text" name="name" placeholder="Your Name"></label><br>
+                        <label>NAME:<br><input type="text" name="name" placeholder="Your Name" id="inpt"></label><br>
                         <p>Price: $11</p><br>
                         <label>QTY:<br><input type="number" name="qty" placeholder="0"></label><br>
                         <label>ADDRESS:<br><input type="text" name="address" placeholder="Your Address"></label><br>
                         <label>PHONE:<br><input type="tel" name="phone" placeholder="Your Phone Number"></label><br>
-                        <label><input type="submit"></label>
+                        <label><input type="submit" id="subta"></label>
                     </form>
                 </dialog>
             </div>

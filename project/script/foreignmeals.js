@@ -74,6 +74,7 @@ function createForeign(dish)
     image.setAttribute('alt', dishes.name);
     image.setAttribute('width', '350px');
     image.setAttribute('height', '300px');
+    image.setAttribute('loading', 'lazy');
 
 
 
