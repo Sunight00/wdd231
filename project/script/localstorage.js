@@ -1,5 +1,6 @@
 const sub = document.querySelector('#subtac');
 sub.addEventListener('click',()=>{
+    const date = Date.now();
     const input = document.querySelector('#input').value;
    const n= [1,2,3,];
     n.push(input);
