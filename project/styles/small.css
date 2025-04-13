@@ -331,7 +331,8 @@ dialog{
     font-family: var(--bodyfont--);
     font-weight: 600;
     text-align: center;
-    margin:auto auto auto auto;
+    margin:-400px auto auto auto;
+    animation: drop 1s ease forwards;
 }
 
 form{
@@ -340,7 +341,19 @@ form{
 }
 
 
-
+@keyframes drop {
+    0%{
+        opacity: 0;
+    }
+    70% {
+        transform: translateY(700px);
+    }
+    100% {
+        transform: translateY(550px);
+        opacity: 1;
+    }   
+    
+}
 
 
 
