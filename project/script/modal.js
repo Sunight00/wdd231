@@ -117,3 +117,8 @@ openkoshari.addEventListener("click",()=>{
 closekoshari.addEventListener("click",()=>{
     modalkoshari.close()
 });
+
+
+function submission(){
+    alert("ORDER SUBMITTED")
+}

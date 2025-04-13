@@ -47,9 +47,6 @@ document.querySelector('.foreign').appendChild(card);*/
 
 getMeals();
 
-
-
-
 function createForeign(dish)
 {   
     dish.forEach(dishes => {
